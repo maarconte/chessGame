@@ -1,0 +1,31 @@
+
+body {
+    font-family: 'Nova Flat', cursive;
+    background-image: url('./bg.jpg')    
+}
+table {
+    margin: 0 auto;
+}
+td, th{
+    width: 75px;
+    height: 75px;
+    background-color: #fff;
+    text-align: center;
+}
+
+th, .coo {
+    background-color: transparent;
+    color: #fff;
+}
+
+tr:nth-child(even) td:nth-child(2n+3){
+    background-color: transparent;
+}
+
+tr:nth-child(odd) td:nth-child(even){
+    background-color: transparent;
+}
+h1{
+    text-align: center;
+    color: #fff;
+}
